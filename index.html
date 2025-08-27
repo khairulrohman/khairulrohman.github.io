@@ -15,7 +15,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,67 +27,79 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: SnapFolio
-  * Template URL: https://bootstrapmade.com/snapfolio-bootstrap-portfolio-template/
-  * Updated: Jun 13 2025 with Bootstrap v5.3.6
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <style>
+    /* Custom spacing and typography for resume section */
+    .resume.section {
+      padding: 40px 0;
+    }
+
+    .section-title {
+      margin: 0 auto 20px auto; /* auto kiri kanan supaya ke tengah */
+      padding-top: 20px;
+      text-align: center;
+      max-width: fit-content;   /* biar benar2 di tengah */
+    }
+
+    .resume-title {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .resume-subtitle {
+      font-size: 1rem;
+      color: #6c757d;
+      margin-bottom: 20px;
+    }
+
+    .profile-photo {
+      width: 120px;
+      height: auto;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
 </head>
 
 <body class="index-page">
 
   <header id="header" class="header dark-background d-flex flex-column justify-content-center">
     <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <!-- <div class="header-container d-flex flex-column align-items-start">
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-          <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
-        </ul>
-      </nav>
-
-      <div class="social-links text-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
-
-    </div> -->
-
   </header>
 
   <main class="main">
-  
-
-
     <!-- Resume Section -->
-    <section id="resume" class="resume section">
+<section id="resume" class="resume section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2></h2>
-        <h1>Khairul Rohman</h1>
-        <p>Data Analyst | Business Intelligence | Excel | SQL | Tableau | Power BI | Python</p>
-      </div><!-- End Section Title -->
+</section>
+  </main>
+
+</body>
+</html>
+
+
+
+</body>
+
+</html>
+
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
           <!-- Left column with summary and contact -->
-          <div class="col-lg-4">
+          <div class="col-lg-3 col-md-4 col-sm-12">
             <div class="resume-side" data-aos="fade-right" data-aos-delay="100">
               <div class="profile-img mb-4">
                 <img src="assets/img/profile/kh.png" alt="Profile" class="img-fluid rounded">
               </div>
-
+                <div class="container d-flex justify-content-center">
+                  <div class="section-title text-center" data-aos="fade-up">
+                    <h1 class="resume-title">Khairul Rohman</h1>
+                    <p class="resume-subtitle">Data Analyst | Business Intelligence | Excel | SQL | Tableau | Power BI | Python</p>
+                  </div>
+                </div>
               <h3>Professional Summary</h3>
               <p>Analytical and results-driven Data Analyst with 8+ years of experience in IT and finance, transitioning into analytics through intensive hands-on training. Skilled in SQL, Excel, Python, Tableau, Looker Studio, and Power BI. Proven track record in cleaning and analyzing complex datasets, building dashboards, and delivering actionable insights that drive business value.</p>
 
@@ -97,60 +109,6 @@
                 <li><i class="bi bi-phone"></i> +62 812 1997 1941</li>
                 <li><i class="bi bi-linkedin"></i> linkedin.com/in/khairulrohman</li>
               </ul>
-
-              <div class="skills-animation mt-4">
-                <h3>Tools</h3>
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span>Excel</span>
-                    <span></span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span>SQL</span>
-                    <span></span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span>Tableau</span>
-                    <span></span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span>Power BI</span>
-                    <span></span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span>Python</span>
-                    <span></span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-
-              </div>
             </div>
           </div>
 
@@ -158,6 +116,9 @@
           <div class="col-lg-8 ps-4 ps-lg-5">
             <!-- Experience Section -->
             <div class="resume-section" data-aos="fade-up">
+              <h1 class="d-flex justify-content-center align-items-center">KHAIRUL ROHMAN</h1>
+              <br><br>
+
               <h3><i class="bi bi-briefcase me-2"></i>Professional Experience</h3>
 
               <div class="resume-item">
@@ -194,63 +155,64 @@
                   <li>Automated database backup and restore processes with 100% success rate</li>
                 </ul>
               </div>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- /Resume Section -->
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+                <div class="resume-item">
+          <h2>PORTFOLIO1</h2>
+
+          <section id="portfolio" class="portfolio section">
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>PORTFOLIO</h2>
-      </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
           <div class="row">
-            <!-- <div class="col-lg-3 filter-sidebar">
-              <div class="filters-wrapper" data-aos="fade-right" data-aos-delay="150">
-                <ul class="portfolio-filters isotope-filters">
-                  <li data-filter=".filter-photography">Analyst</li>
-                  <li data-filter=".filter-design">Dashboard</li>
-                  <li data-filter=".filter-automotive">Automotive</li>
-                  <li data-filter=".filter-nature">Nature</li>
-                </ul>
-              </div>
-            </div> -->
-
-            <div class="col-lg-9">
+            <div class="col-lg-24">
               <div class="row gy-4 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="200">
 
                 <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
+                  <div class="portfolio-wrap" style="aspect-ratio: 4/3; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="Credit Risk Modeling" loading="lazy" style="width: 100%; height: 100%; object-fit: contain;">
+
+                    <div class="portfolio-info" style="background: rgba(0,0,0,0.6); color: #fff; padding: 15px; position: absolute; bottom: 0; width: 100%;">
                       <div class="content">
-                        <!-- <span class="category">Photography</span> -->
-                        <h4>Customer Churn Analysis</h4>
+                        <h4 style="font-size: 1.1rem; font-weight: 600;">Credit Risk Analysis & Segmentation</h4>
+                        <p style="font-size: 0.9rem; margin-bottom: 8px;">SQL-driven modeling using Google Platform</p>
                         <div class="portfolio-links">
-                          <a href="assets/img/portfolio/portfolio-1.jpg" class="glightbox" title="Capturing Moments"><i class="bi bi-plus-lg"></i></a>
-                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                          <a href="assets/img/portfolio/portfolio-4.jpg" class="glightbox" title="Credit Risk Modeling"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details4.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div><!-- End Portfolio Item -->
+                </div>
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
+                  <div class="portfolio-wrap" style="aspect-ratio: 4/3; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="Credit Risk Modeling" loading="lazy" style="width: 100%; height: 100%; object-fit: contain;">
+
+                    <div class="portfolio-info" style="background: rgba(0,0,0,0.6); color: #fff; padding: 15px; position: absolute; bottom: 0; width: 100%;">
                       <div class="content">
-                        <h4>Bike Sales Analysis</h4>
+                        <h4 style="font-size: 1.1rem; font-weight: 600;">Customer Churn Analysi</h4>
+                        <p style="font-size: 0.9rem; margin-bottom: 8px;">SQL-driven modeling using Google Platform</p>
                         <div class="portfolio-links">
-                          <a href="assets/img/portfolio/portfolio-2.jpg" class="glightbox" title="Woodcraft Design"><i class="bi bi-plus-lg"></i></a>
+                          <a href="assets/img/portfolio/portfolio-1.jpg" class="glightbox" title="Credit Risk Modeling"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details1.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>                
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
+                  <div class="portfolio-wrap" style="aspect-ratio: 4/3; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="Credit Risk Modeling" loading="lazy" style="width: 100%; height: 100%; object-fit: contain;">
+
+                    <div class="portfolio-info" style="background: rgba(0,0,0,0.6); color: #fff; padding: 15px; position: absolute; bottom: 0; width: 100%;">
+                      <div class="content">
+                        <h4 style="font-size: 1.1rem; font-weight: 600;">Bike Sales Analysis</h4>
+                        <p style="font-size: 0.9rem; margin-bottom: 8px;">SQL-driven modeling using Google Platform</p>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/portfolio-2.jpg" class="glightbox" title="Credit Risk Modeling"><i class="bi bi-plus-lg"></i></a>
                           <a href="portfolio-details2.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
                         </div>
                       </div>
@@ -258,15 +220,16 @@
                   </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-automotive">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
+                  <div class="portfolio-wrap" style="aspect-ratio: 4/3; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="Credit Risk Modeling" loading="lazy" style="width: 100%; height: 100%; object-fit: contain;">
+
+                    <div class="portfolio-info" style="background: rgba(0,0,0,0.6); color: #fff; padding: 15px; position: absolute; bottom: 0; width: 100%;">
                       <div class="content">
-                        <span class="category">Creative Project Success Analysis</span>
-                        <h4>Classic Beauty</h4>
+                        <h4 style="font-size: 1.1rem; font-weight: 600;">Creative Project Success Analysi</h4>
+                        <p style="font-size: 0.9rem; margin-bottom: 8px;">SQL-driven modeling using Google Platform</p>
                         <div class="portfolio-links">
-                          <a href="assets/img/portfolio/portfolio-3.jpg" class="glightbox" title="Classic Beauty"><i class="bi bi-plus-lg"></i></a>
+                          <a href="assets/img/portfolio/portfolio-3.jpg" class="glightbox" title="Credit Risk Modeling"><i class="bi bi-plus-lg"></i></a>
                           <a href="portfolio-details3.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
                         </div>
                       </div>
@@ -274,55 +237,9 @@
                   </div>
                 </div>
 
-                <!-- <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-nature">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-portrait-4.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
-                      <div class="content">
-                        <span class="category">Nature</span>
-                        <h4>Natural Growth</h4>
-                        <div class="portfolio-links">
-                          <a href="assets/img/portfolio/portfolio-portrait-4.webp" class="glightbox" title="Natural Growth"><i class="bi bi-plus-lg"></i></a>
-                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>End Portfolio Item -->
+              </div>
+            </div>
 
-                <!-- <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-5.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
-                      <div class="content">
-                        <span class="category">Photography</span>
-                        <h4>Urban Stories</h4>
-                        <div class="portfolio-links">
-                          <a href="assets/img/portfolio/portfolio-5.webp" class="glightbox" title="Urban Stories"><i class="bi bi-plus-lg"></i></a>
-                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>End Portfolio Item -->
-
-                <!-- <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design">
-                  <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-6.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
-                      <div class="content">
-                        <span class="category">Web Design</span>
-                        <h4>Digital Experience</h4>
-                        <div class="portfolio-links">
-                          <a href="assets/img/portfolio/portfolio-6.webp" class="glightbox" title="Digital Experience"><i class="bi bi-plus-lg"></i></a>
-                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>End Portfolio Item -->
-
-              </div><!-- End Portfolio Container -->
             </div>
           </div>
 
@@ -331,6 +248,21 @@
       </div>
 
     </section><!-- /Portfolio Section -->
+
+          </div>
+
+            </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    
 
     <!-- Contact Section -->
 
