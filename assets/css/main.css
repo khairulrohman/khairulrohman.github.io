@@ -2298,14 +2298,14 @@ section,
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: var(--contrast-color);
+  background: yellow;
   opacity: 0.5;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   opacity: 1;
-  background-color: var(--accent-color);
+  background: green;;
 }
 
 .portfolio-details .portfolio-info {
