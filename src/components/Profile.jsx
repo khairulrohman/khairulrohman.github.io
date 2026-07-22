@@ -42,8 +42,8 @@ function Profile() {
 
       {/* ── Left Content ── */}
       <div className="profile-content">
-        <p className="profile-eyebrow">Data Analyst</p>
-        <h1 className="name">Khairul <em>Rohman</em></h1>
+        <p className="profile-eyebrow">DA</p>
+        <h1 className="name">Khai <em>Roh</em></h1>
         <div className="profile-divline"></div>
 
         {/* Typing Role */}
