@@ -43,7 +43,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconImage: bi,
+        iconImage: null,
         link: 'https://app.powerbi.com/view?r=eyJrIjoiMzc0YmI0YjctYmFmZC00NDY2LWI1NDYtNzIxOTk5YjcyZmI1IiwidCI6ImFlYTgxMzk3LTQ5MmUtNDRiYy1iYWM5LTgzN2Q3OWU4YTc4YSJ9',
         github: '#'
     },
@@ -56,7 +56,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconImage: bi,
+        iconImage: null,
         link: 'https://app.powerbi.com/view?r=eyJrIjoiMWI3N2E5ZmItN2Q0NC00ZDJmLThmZGItZTZmMTBmOTliMzI1IiwidCI6ImFlYTgxMzk3LTQ5MmUtNDRiYy1iYWM5LTgzN2Q3OWU4YTc4YSJ9',
         github: '#'
     },
@@ -69,7 +69,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconImage: sql,
+        iconImage: null,
         link: 'https://drive.google.com/file/d/1xbisueYqvMOE_6UglrlJU0indw9Q6X5g/view?usp=sharing',
         github: '#'
     },
@@ -82,7 +82,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconImage: sql,
+        iconImage: null,
         link: 'https://drive.google.com/file/d/14P6NW7eZzDGNViW0wPhEyRypIedcnjc2/view?usp=sharing',
         github: '#'
     },
@@ -95,7 +95,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconImage: bi,
+        iconImage: null,
         link: 'https://app.powerbi.com/view?r=eyJrIjoiYzliNzk1YmEtMGYwOC00NjUzLTkyMmMtODNiODE2YjZlZDc0IiwidCI6ImFlYTgxMzk3LTQ5MmUtNDRiYy1iYWM5LTgzN2Q3OWU4YTc4YSJ9',
         github: '#'
     },
@@ -108,7 +108,7 @@ const projects = [
         accent: '#f97316',
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
         iconShadow: '#f97316',
-        iconImage: tableau,
+        iconImage: null,
         link: 'https://public.tableau.com/app/profile/khairul.rohman/viz/ProjectCustomerChurnAnalyst/EXPLORATORYDATAANALYSIS',
         github: '#'
     },
@@ -121,7 +121,7 @@ const projects = [
         accent: '#f97316',
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
         iconShadow: '#f97316',
-        iconImage: apps,
+        iconImage: null,
         link: 'https://drive.google.com/file/d/1hGVxq6ww9JgP2DW6V0p5LkxOfu8CqcXH/view?usp=sharing',
         github: '#'
     },
@@ -134,7 +134,7 @@ const projects = [
         accent: '#f97316',
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
         iconShadow: '#f97316',
-        iconImage: apps,
+        iconImage: null,
         link: 'https://drive.google.com/file/d/1AharNo5mbhViAYot6VqtbVGACInQ-R5U/view?usp=sharing',
         github: '#'
     },
@@ -147,7 +147,7 @@ const projects = [
         accent: '#f97316',
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
         iconShadow: '#f97316',
-        iconImage: apps,
+        iconImage: null,
         link: 'https://drive.google.com/file/d/1U0lgeQ4LryRahOvNbznqWDDJ9ePfj6jS/view?usp=sharing',
         github: '#'
     }
