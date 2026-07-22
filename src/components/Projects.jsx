@@ -17,7 +17,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconImage: bi,
+        iconImage: null,
         link: 'https://app.powerbi.com/view?r=eyJrIjoiY2U4ZjdkNWUtMTIxYi00ZDBmLTllMWUtMzZhZjE5OTBlNDg2IiwidCI6ImFlYTgxMzk3LTQ5MmUtNDRiYy1iYWM5LTgzN2Q3OWU4YTc4YSJ9',
         github: '#'
     },
@@ -30,7 +30,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconImage: bi,
+        iconImage: null,
         link: 'https://app.powerbi.com/view?r=eyJrIjoiZTY4M2M1NTEtOGFmMy00YTc3LWFmMjEtZTk3YjdlOGYzZjRjIiwidCI6ImFlYTgxMzk3LTQ5MmUtNDRiYy1iYWM5LTgzN2Q3OWU4YTc4YSJ9',
         github: '#'
     },
