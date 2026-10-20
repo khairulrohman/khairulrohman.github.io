@@ -1,0 +1,2 @@
+cd C:\Users\Lenovo\khairul-rohman-portfolio
+npm run dev
