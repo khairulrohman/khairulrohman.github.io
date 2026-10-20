@@ -11,6 +11,10 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -31,8 +35,18 @@ jobs:
       - name: Build portfolio
         run: npm run build
 
+      - name: Verify build output
+        run: |
+          test -f dist/index.html
+          echo "Build output ditemukan."
+
       - name: Configure SPA fallback
         run: cp dist/index.html dist/404.html
+
+      - name: Verify SPA fallback
+        run: |
+          test -f dist/404.html
+          echo "SPA fallback berhasil dibuat."
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
