@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import PortfolioDetail from "./PortfolioDetail";
+import { Link } from "react-router-dom";
 
 /**
               <div className="project-metrics">
@@ -714,12 +714,12 @@ function Projects() {
               </div>
 
               <div className="project-links">
-                <a
+                <Link
                     className="project-link-badge"
-                    href={`/project/${project.id}`}
+                    to={`/project/${project.id}`}
                   >
                     {project.linkLabel || "Project details ↗"}
-                  </a>
+                </Link>
 
               </div>
             </div>
@@ -770,9 +770,9 @@ function Portfolio() {
               </div>
 
               <div className="project-links">
-                <a className="project-link-badge" href={item.link}>
+                <Link className="project-link-badge" to={item.link}>
                   {item.linkLabel}
-                </a>
+                </Link>
               </div>
             </div>
           </article>
