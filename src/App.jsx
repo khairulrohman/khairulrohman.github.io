@@ -770,7 +770,10 @@ function Portfolio() {
               </div>
 
               <div className="project-links">
-                <a className="project-link-badge" href={item.link}>
+                <a
+  className="project-link-badge"
+  href={`/#/portfolio/${item.id}`}
+>
                   {item.linkLabel}
                 </a>
               </div>
