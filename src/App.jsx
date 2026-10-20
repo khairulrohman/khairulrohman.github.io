@@ -477,13 +477,13 @@ function Hero() {
           </a>
 
           <a
-              href="/cv-khairul-rohman.pdf"
-              download="CV-Khairul-Rohman.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Download CV Saya
-            </a>
+            href="/cv-khairul-rohman.pdf"
+            className="button button-outline hero-cv-button"
+            download="CV-Khairul-Rohman.pdf"
+            aria-label="Download CV Khairul Rohman dalam format PDF"
+          >
+            Download CV <span aria-hidden="true">↓</span>
+          </a>
         </div>
 
         <div className="hero-keywords">
