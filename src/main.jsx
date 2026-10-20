@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import App from "./App.jsx";
 import ProjectDetail from "./ProjectDetail.jsx";
@@ -8,7 +8,7 @@ import PortfolioDetail from "./PortfolioDetail.jsx";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<App />} />
 
@@ -22,6 +22,6 @@ createRoot(document.getElementById("root")).render(
           element={<PortfolioDetail />}
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
