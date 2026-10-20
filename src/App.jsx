@@ -477,12 +477,13 @@ function Hero() {
           </a>
 
           <a
-            href="/CV_Khairul-Rohman_Data-Analyst.pdf"
-            className="button button-outline"
-            download="CV_Khairul-Rohman_Data-Analyst.pdf"
-          >
-            Get my CV
-          </a>
+              href="/cv-khairul-rohman.pdf"
+              download="CV-Khairul-Rohman.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download CV Saya
+            </a>
         </div>
 
         <div className="hero-keywords">
