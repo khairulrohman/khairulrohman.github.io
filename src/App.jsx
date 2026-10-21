@@ -459,10 +459,11 @@ function Hero() {
         </p>
 
         <h1>
-          Turning raw data
-          <br />
-          into decisions<span>.</span>
-        </h1>
+            Data Insights,
+            <br />
+            Smarter Automation<span>.</span>
+            <span className="typing-cursor"></span>
+          </h1>
 
         <p className="hero-description">
           Saya Khairul Rohman, profesional yang berfokus pada analisis data,
