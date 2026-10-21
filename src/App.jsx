@@ -378,69 +378,111 @@ function Header() {
 }
 
 function DashboardMockup() {
-  const bars = [36, 56, 43, 68, 50, 82, 61, 46, 72];
-
   return (
     <div
       className="dashboard-window"
-      aria-label="Decorative analytics dashboard preview"
+      aria-label="Data Analytics and Business Automation dashboard preview"
     >
-      <div className="dashboard-topbar">
-        <span>overview_dashboard.pbix</span>
 
-        <span className="window-dots" aria-hidden="true">
-          <i />
-          <i />
-          <i />
-        </span>
-      </div>
 
+      {/* Skill Cards */}
       <div className="dashboard-stats">
         <div className="dashboard-stat">
-          <span>CORE FOCUS</span>
-          <strong className="teal-text">Analytics</strong>
+          <span>DATA ANALYTICS</span>
+          <strong className="teal-text">Data Analysis</strong>
+          <small className="skill-description">Explore · Transform · Insights</small>
         </div>
 
         <div className="dashboard-stat">
           <span>BUSINESS INTELLIGENCE</span>
           <strong className="orange-text">Power BI</strong>
+          <small className="skill-description">Dashboards · Reporting</small>
+        </div>
+
+        <div className="dashboard-stat">
+          <span>WORKFLOW AUTOMATION</span>
+          <strong className="teal-text">Process Automation</strong>
+          <small className="skill-description">Automate · Integrate · Efficiency</small>
         </div>
 
         <div className="dashboard-stat">
           <span>DATA PROCESSING</span>
-          <strong className="teal-text">SQL</strong>
-        </div>
-
-        <div className="dashboard-stat">
-          <span>PROGRAMMING</span>
-          <strong className="orange-text">Python</strong>
+          <strong className="orange-text">SQL &amp; Python</strong>
+          <small className="skill-description">Data Preparation · ETL · Analysis</small>
         </div>
       </div>
 
+      {/* Business Efficiency Workflow */}
       <div className="chart-panel">
-        <div className="chart-caption">
-          <span>DATA INSIGHTS</span>
-          <span>VISUAL OVERVIEW</span>
-        </div>
+        <div className="workflow-chart">
+          <div className="workflow-step">
+            <div className="workflow-icon database-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                aria-hidden="true"
+              >
+                <ellipse cx="12" cy="5" rx="8" ry="3" />
+                <path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5" />
+                <path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3" />
+              </svg>
+            </div>
 
-        <div className="bar-chart" aria-hidden="true">
-          {bars.map((height, index) => (
-            <span
-              key={index}
-              className="bar-column"
-              style={{ height: `${height}%` }}
-            />
-          ))}
+            <strong>RAW DATA</strong>
+            <span>Various Sources</span>
+          </div>
+
+          <div className="workflow-connector" aria-hidden="true">
+            <span>→</span>
+          </div>
+
+          <div className="workflow-step">
+            <div className="workflow-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                aria-hidden="true"
+              >
+                <path d="M12 2l2 2.2 3-.1 1.2 2.7 2.7 1.2-.1 3L23 13l-2.2 2 .1 3-2.7 1.2-1.2 2.7-3-.1L12 24l-2-2.2-3 .1-1.2-2.7-2.7-1.2.1-3L1 13l2.2-2-.1-3 2.7-1.2L7 4.1l3 .1z" />
+                <circle cx="12" cy="13" r="3.5" />
+              </svg>
+            </div>
+
+            <strong>AUTOMATION</strong>
+            <span>Process &amp; Integrate</span>
+          </div>
+
+          <div className="workflow-connector" aria-hidden="true">
+            <span>→</span>
+          </div>
+
+          <div className="workflow-step">
+            <div className="workflow-icon chart-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                aria-hidden="true"
+              >
+                <path d="M4 20V12h4v8z" />
+                <path d="M10 20V7h4v13z" />
+                <path d="M16 20V3h4v17z" />
+              </svg>
+            </div>
+
+            <strong>BUSINESS INSIGHTS</strong>
+            <span>Better Decisions</span>
+          </div>
         </div>
       </div>
 
-      <div className="dashboard-footer">
-        <span>
-          <i /> Data-driven thinking
-        </span>
+      
 
-        <span>01 / 04</span>
-      </div>
     </div>
   );
 }
