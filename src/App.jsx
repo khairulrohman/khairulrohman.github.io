@@ -87,8 +87,105 @@ const experiences = [
 
 const projects = [
   {
-    id: "kopi",
+    id: "asisten",
     number: "01",
+    category: "N8N · AI AGENT · WORKFLOW AUTOMATION",
+    title: "Personal Schedule Assistant",
+    description:
+      "Personal Schedule Assistant adalah sistem otomasi pengelolaan jadwal yang mengintegrasikan Telegram, Gmail, AI, dan Google Calendar. Sistem ini dirancang untuk membantu pengguna mencatat agenda, memproses undangan meeting dari email, memeriksa potensi bentrok jadwal, serta mengelola keputusan kehadiran melalui Telegram. Pengguna dapat memasukkan jadwal menggunakan bahasa sehari-hari atau menerima undangan melalui Gmail. AI kemudian mengekstrak informasi penting dan menyiapkannya untuk dikonfirmasi sebelum diproses lebih lanjut.",
+    image: "/images/asisten.png",
+    imageAlt: "",
+    imageFit: "contain",
+    
+    metrics: [
+      ["HEADCOUNT", "Workforce overview"],
+      ["TURNOVER", "Attrition analysis"],
+      ["ABSENSI", "Attendance trends"],
+    ],
+    tags: [],
+    label: "Sistem Pengelolaan Stok Gudang Kopi",
+    link: "/portfolio/kopi",
+    linkLabel: "Project details ↗",
+    videoUrl: "/videos/GudangKopiKhai.mp4",
+    dashboardLink: "https://app.powerbi.com/view?r=LINK_KAMU",
+    tone: "teal",
+  },
+    {
+    id: "HRD",
+    number: "02",
+    category: "N8N · AI AGENT · WORKFLOW AUTOMATION",
+    title: "HR Job Application Email Automation",
+    description:
+      "HR Job Application Email Automation merupakan sistem otomasi untuk membantu proses penerimaan dan pengelolaan email lamaran kerja. Sistem menggunakan AI untuk mengidentifikasi email lamaran berdasarkan format subject, mengekstrak nama pelamar dan posisi yang dilamar, kemudian mengelola dokumen lamaran secara otomatis. Informasi pelamar dicatat ke Google Sheets, dokumen disimpan di Google Drive, dan notifikasi penerimaan lamaran dikirimkan kepada HR melalui Telegram.",
+    image: "/images/HRD.png",
+    imageAlt: "",
+    imageFit: "contain",
+    
+    metrics: [
+      ["HEADCOUNT", "Workforce overview"],
+      ["TURNOVER", "Attrition analysis"],
+      ["ABSENSI", "Attendance trends"],
+    ],
+    tags: [],
+    label: "",
+    link: "/portfolio/kopi",
+    linkLabel: "Project details ↗",
+    videoUrl: "/videos/GudangKopiKhai.mp4",
+    dashboardLink: "https://app.powerbi.com/view?r=LINK_KAMU",
+    tone: "teal",
+  },
+    {
+    id: "RAG",
+    number: "03",
+    category: "N8N · AI AGENT · WORKFLOW AUTOMATION",
+    title: "Sistem Pengelolaan Stok Gudang Kopi",
+    description:
+      "Chatbot RAG merupakan sistem tanya jawab berbasis AI yang dirancang untuk memberikan jawaban berdasarkan dokumen yang telah diunggah ke dalam knowledge base. Sistem mengintegrasikan n8n, Telegram, Google Gemini, Supabase Vector Store, dan PostgreSQL untuk membangun layanan pencarian informasi berbasis dokumen. Pengguna dapat mengunggah dokumen PDF melalui form, kemudian mengajukan pertanyaan melalui Telegram. AI akan menggunakan informasi yang tersimpan di database sebagai sumber jawaban.",
+    image: "/images/RAG.png",
+    imageAlt: "",
+    imageFit: "contain",
+    
+    metrics: [
+      ["HEADCOUNT", "Workforce overview"],
+      ["TURNOVER", "Attrition analysis"],
+      ["ABSENSI", "Attendance trends"],
+    ],
+    tags: [],
+    label: "",
+    link: "/portfolio/kopi",
+    linkLabel: "Project details ↗",
+    videoUrl: "/videos/GudangKopiKhai.mp4",
+    dashboardLink: "https://app.powerbi.com/view?r=LINK_KAMU",
+    tone: "teal",
+  },
+    {
+    id: "keuangan",
+    number: "04",
+    category: "N8N · AI AGENT · WORKFLOW AUTOMATION",
+    title: "Sistem Pengelolaan Pencatatan Keuangan dengan Telegram",
+    description:
+      "Sistem pengelolaan stok gudang berbasis WhatsApp yang memungkinkan pengguna mencatat barang masuk dan keluar hanya dengan mengirimkan pesan. Sistem memperbarui jumlah stok secara otomatis, memberikan konfirmasi transaksi, mencegah pengeluaran melebihi stok tersedia, serta mengirimkan notifikasi ketika stok menipis atau tidak mencukupi.",
+    image: "/images/keuangan.png",
+    imageAlt: "",
+    imageFit: "contain",
+    
+    metrics: [
+      ["HEADCOUNT", "Workforce overview"],
+      ["TURNOVER", "Attrition analysis"],
+      ["ABSENSI", "Attendance trends"],
+    ],
+    tags: [],
+    label: "",
+    link: "/portfolio/kopi",
+    linkLabel: "Project details ↗",
+    videoUrl: "/videos/GudangKopiKhai.mp4",
+    dashboardLink: "https://app.powerbi.com/view?r=LINK_KAMU",
+    tone: "teal",
+  },
+
+  {
+    id: "kopi",
+    number: "05",
     category: "GOOGLE APPS SCRIPT · WORKFLOW AUTOMATION",
     title: "Sistem Pengelolaan Stok Gudang Kopi",
     description:
@@ -112,7 +209,7 @@ const projects = [
   },
   {
     id: "laundry",
-    number: "02",
+    number: "06",
     category: "GOOGLE APPS SCRIPT · WORKFLOW AUTOMATION",
     title: "Sistem Otomatisasi Nota Digital via WhatsApp",
     description:

@@ -297,8 +297,12 @@
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
   align-items: center;
   gap: 25px;
-
   margin: 0 0 45px;
+}
+
+/* Tambahkan aturan ini agar jika figure tidak ada, teks memenuhi 1 kolom penuh */
+.detail-story:not(:has(.detail-story-figure)) {
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .detail-story-reverse .detail-story-copy {
