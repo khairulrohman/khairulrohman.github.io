@@ -19,7 +19,7 @@ const project = {
   author: "Khairul Rohman",
   publishedAt: "Portfolio Project",
 
-  tools: ["Google Apps Script", "Google Sheets", "WhatsApp Automation"],
+  tools: ["N8N", "AI AGENT", "TELEGRAM"],
 
   sections: [
     {
