@@ -138,7 +138,7 @@ const projects = [
     id: "RAG",
     number: "03",
     category: "N8N · AI AGENT · WORKFLOW AUTOMATION",
-    title: "Sistem Pengelolaan Stok Gudang Kopi",
+    title: "Chatbot RAG — AI-Powered Document Assistant",
     description:
       "Chatbot RAG merupakan sistem tanya jawab berbasis AI yang dirancang untuk memberikan jawaban berdasarkan dokumen yang telah diunggah ke dalam knowledge base. Sistem mengintegrasikan n8n, Telegram, Google Gemini, Supabase Vector Store, dan PostgreSQL untuk membangun layanan pencarian informasi berbasis dokumen. Pengguna dapat mengunggah dokumen PDF melalui form, kemudian mengajukan pertanyaan melalui Telegram. AI akan menggunakan informasi yang tersimpan di database sebagai sumber jawaban.",
     image: "/images/RAG.png",
@@ -164,7 +164,7 @@ const projects = [
     category: "N8N · AI AGENT · WORKFLOW AUTOMATION",
     title: "Sistem Pengelolaan Pencatatan Keuangan dengan Telegram",
     description:
-      "Sistem pengelolaan stok gudang berbasis WhatsApp yang memungkinkan pengguna mencatat barang masuk dan keluar hanya dengan mengirimkan pesan. Sistem memperbarui jumlah stok secara otomatis, memberikan konfirmasi transaksi, mencegah pengeluaran melebihi stok tersedia, serta mengirimkan notifikasi ketika stok menipis atau tidak mencukupi.",
+      "Catat Keuangan dengan Telegram merupakan sistem pencatatan transaksi keuangan berbasis chatbot yang memungkinkan pengguna mencatat pemasukan atau pengeluaran melalui percakapan Telegram. Sistem menggunakan AI untuk membaca informasi dari foto struk maupun memahami input teks bebas. Data transaksi kemudian disimpan secara otomatis ke Google Sheets. Pengguna juga dapat meminta laporan transaksi melalui Telegram berdasarkan periode tertentu tanpa harus membuka spreadsheet secara langsung.",
     image: "/images/keuangan.png",
     imageAlt: "",
     imageFit: "contain",
